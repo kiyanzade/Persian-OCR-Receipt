@@ -10,3 +10,6 @@ mss
 pynput
 pyautogui
 pyperclip
+fastapi
+uvicorn
+python-multipart

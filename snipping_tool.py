@@ -475,7 +475,7 @@ class _OcrProgressWindow:
 
 def _ocr_text(image: Image.Image, lang_override: str | None = None) -> str:
     """Run OCR on the captured image with a visible progress window."""
-    from ocr_utils import run_ocr
+    from receipt_ocr import run_ocr
 
     lang = lang_override if lang_override is not None else _lang
     progress = _OcrProgressWindow()

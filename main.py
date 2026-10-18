@@ -11,7 +11,8 @@ import fitz
 from PIL import Image
 
 from export_utils import save_export
-from ocr_utils import OCRCancelled, run_ocr, warm_reader
+from ocr_utils import OCRCancelled, warm_reader
+from receipt_ocr import run_ocr
 from settings import load_settings, save_settings
 
 import snipping_tool
